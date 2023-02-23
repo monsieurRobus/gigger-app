@@ -1,0 +1,61 @@
+.song {
+    /* From https://css.glass */
+    margin: 1em 0;
+    width:80vw;
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.23);
+    transition: all 0.2s ease;
+}
+
+.song header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.song .names {
+    text-align: left;
+}
+
+.song .tools-aside {
+    
+}
+
+.song main {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 0 0 16px 16px;
+    
+}
+
+.song .lyrics{
+    padding: 0 18px;
+    height:0px;
+    overflow: hidden;
+    transition: all 2s;
+    
+}
+.song .lyrics.active {
+    height:auto;
+}
+
+.song .tools-aside .time {
+    text-align: right;
+    
+}
+
+.song h1 {
+    font-size:2em;
+}
+
+.song h2 {
+    font-size:1.5em;
+}
+
+.song h3 {
+    font-size:1em;
+}
