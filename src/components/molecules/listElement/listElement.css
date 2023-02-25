@@ -8,14 +8,24 @@
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     border: 1px solid rgba(255, 255, 255, 0.23);
-    transition: all 0.2s ease;
+    transition: all 0.1s ease;
 }
+
 
 .song header {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0.2em 1em;
     
+}
+
+.dropped {
+    box-shadow: 0 8px 40px #ffdf66;
+}
+
+.played {
+    opacity: 0.2;
 }
 
 .song .names {
@@ -49,13 +59,16 @@
 }
 
 .song h1 {
-    font-size:2em;
+    font-size:1.4em;
+    margin:0;
 }
 
 .song h2 {
-    font-size:1.5em;
+    font-size:0.75em;
+    margin:0;
 }
 
 .song h3 {
-    font-size:1em;
+    font-size:0.6em;
+    margin:0;
 }

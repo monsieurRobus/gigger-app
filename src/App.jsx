@@ -5,6 +5,9 @@ import { GoogleAuthProvider, getAuth, signInWithPopup } from "firebase/auth"
 
 import './App.css'
 import List from './components/organism/lists/List'
+import Header from './components/organism/header/Header'
+import Footer from './components/organism/footer/Footer'
+
 const provider = new GoogleAuthProvider()
 
 const firebaseConfig = {
@@ -55,7 +58,9 @@ function App() {
 
   return (
     <div className="App">
+      <Header name={"Mirichaquet's Romance"}/>
       <List />
+      <Footer />
     </div>
   )
 }
