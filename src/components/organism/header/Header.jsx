@@ -4,11 +4,11 @@ import './Header.css'
 
 const Header = (props) => {
 
-    const {name} = props
+    const {name,date} = props
   return (
     <header className={"header-general"}>
         <h1>{name}</h1>
-        <h2>11/03/2023</h2>
+        <h2>{date}</h2>
     </header>
   )
 }

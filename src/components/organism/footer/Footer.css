@@ -1,8 +1,12 @@
 footer.footer-general {
     background-color: #ff007d;
     position:fixed;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     bottom:0;
     left:0;
-    width:100vw;
+    height: 5vh;
+    width:100%;
     z-index: 9999;
 }

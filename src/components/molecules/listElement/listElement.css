@@ -1,7 +1,7 @@
 .song {
     /* From https://css.glass */
-    margin: 1em 0;
-    width:80vw;
+    margin: 0.4em 0;
+    width:95vw;
     background: rgba(255, 255, 255, 0.12);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -28,9 +28,7 @@
     opacity: 0.2;
 }
 
-.song .names {
-    text-align: left;
-}
+
 
 .song .tools-aside {
     
@@ -44,13 +42,23 @@
 
 .song .lyrics{
     padding: 0 18px;
-    height:0px;
+    max-height: 0px;
     overflow: hidden;
-    transition: all 2s;
+    transition: max-height 1s ease;
     
 }
+.song header .names {
+    display:flex;
+    width: 50vw;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
 .song .lyrics.active {
+    padding:1em 0;
     height:auto;
+    max-height: 100vh;
 }
 
 .song .tools-aside .time {
@@ -58,17 +66,36 @@
     
 }
 
-.song h1 {
-    font-size:1.4em;
+.song .names h1 {
+    font-size:4vw;
+    margin:0;
+    text-shadow: 1px 1px 2px black;
+}
+
+.song .names h2 {
+    font-size:3vw;
     margin:0;
 }
 
-.song h2 {
-    font-size:0.75em;
+.song .names h3 {
+    font-size:4vw;
     margin:0;
 }
 
-.song h3 {
-    font-size:0.6em;
-    margin:0;
+
+.lyrics span{
+    font-size: 0.9rem;
+    font-size: rem;
+    display: block;
 }
+
+@media screen and (max-width: 760px) {
+
+    header div.names h1 {
+        font-size: 
+        1rem;
+        margin:0;
+    }
+
+}
+

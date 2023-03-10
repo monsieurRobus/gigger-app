@@ -1,0 +1,528 @@
+[
+    {
+        "id": 1,
+        "name": "Miriam y Carlos",
+        "date": "11/03/2023",
+        "selection": [
+            {
+                "id": 8,
+                "notes": "Cantan los novios.",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 44,
+                "notes": "Letra propia del novio.",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 4,
+                "notes": "Canta el novio.",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 5,
+                "notes": "Toca el piano Retromannfred",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 6,
+                "notes": "Toca el piano Retromannfred",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 2,
+                "notes": "Con o sin retro.",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 7,
+                "notes": "",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 9,
+                "notes": "",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 10,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 3,
+                "notes": "En la siguiente, entran los Covercraft para hacer tiempo y cambiarnos.",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 11,
+                "notes": "Aquí entran a tocar los Covercraft, ",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 12,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 13,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 14,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 15,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 16,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 17,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 18,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 19,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 20,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 21,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 22,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 23,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 24,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 25,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 28,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 29,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 30,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 31,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 33,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 34,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 36,
+                "notes": "Tras este tema, Nebula Tango.",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 39,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 41,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 42,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 42,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            }
+            
+
+
+        ]
+    },
+    {
+        "id":2,
+        "name": "Socuellamos",
+        "date": "17/03/2023",
+        "selection": [
+            {
+                "id": 8,
+                "notes": "Cantan los novios.",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 44,
+                "notes": "Letra propia del novio.",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 4,
+                "notes": "Canta el novio.",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 5,
+                "notes": "Toca el piano Retromannfred",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 6,
+                "notes": "Toca el piano Retromannfred",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 2,
+                "notes": "Con o sin retro.",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 7,
+                "notes": "",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 9,
+                "notes": "",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 10,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 3,
+                "notes": "En la siguiente, entran los Covercraft para hacer tiempo y cambiarnos.",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 11,
+                "notes": "Aquí entran a tocar los Covercraft, ",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 12,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 13,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 14,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 15,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 16,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 17,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 18,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 19,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 20,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 21,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 22,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 23,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 24,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 25,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 28,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 29,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 30,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 31,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 33,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 34,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 36,
+                "notes": "Tras este tema, Nebula Tango.",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 39,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 41,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 42,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            },
+            {
+                "id": 42,
+                "notes": ".",
+                "config": [
+                    {}
+                ]
+            }
+            
+
+
+        ]
+
+    }
+    
+]

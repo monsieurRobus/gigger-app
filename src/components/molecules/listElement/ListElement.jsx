@@ -1,8 +1,9 @@
 import React from 'react'
 import ButtonNav from '../../atoms/ButtonNav'
 import './listElement.css'
-
+import DOMPurify from 'dompurify'
 const handleShowLyrics = (lyrics) => {
+
     const songLyrics = document.querySelector(`#lyrics-${lyrics}`)
     
     songLyrics.classList.toggle('active')
@@ -31,9 +32,9 @@ const secondsToTime = (seconds) => {
     return `0${min}:${sec<=9 ? `0${sec}`: sec }`
 }
 const ListElement = (props) => {
-    const {played,id,name,band,duration,tags,dragStart,dragDrop,dropOver,dragOver,i,lyrics} = props
+    const {editable,played,id,name,band,duration,tags,dragStart,dragDrop,dropOver,dragOver,i,lyrics} = props
 
-
+    let cleanLyrics = DOMPurify.sanitize(lyrics)
 
     return (
         <div draggable="true" onDragStart={(e)=>dragStart(e,i)} onDragOver={(e)=>dragOver(e,i)} onDrop={(e)=>dragDrop(e,i)} /*onDropOver={(e)=>dropOver(e,i)}*/ id={`song-${id}`} className={'song'}>
@@ -47,13 +48,12 @@ const ListElement = (props) => {
                     <div></div>
                     <div>
                         <nav>
-                            <ButtonNav id={id} callback={handleShowLyrics} content={'📜'}/><ButtonNav id={id} callback={handlePlayedSong} content={'✅'}/><ButtonNav id={id} callback={handleShowLyrics} content={'❌'}/>
+                            <ButtonNav id={id} callback={handleShowLyrics} content={'📜'}/><ButtonNav id={id} callback={handlePlayedSong} content={'✅'}/>{editable && <ButtonNav id={id} callback={handleShowLyrics} content={'❌'}/>}
                         </nav>
                     </div>
                 </div>
             </header>
-            <main id={`lyrics-${id}`} className={'lyrics'}>
-                {lyrics}
+            <main id={`lyrics-${id}`} className={'lyrics'} dangerouslySetInnerHTML={{__html:`${cleanLyrics}`}}>
             </main>
             
         </div>

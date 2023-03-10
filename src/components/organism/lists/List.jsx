@@ -1,10 +1,16 @@
-import React, {useState} from 'react'
-import { songs } from '../../models/songs'
+import React, {useState,useEffect} from 'react'
 import ListElement from '../../molecules/listElement/ListElement'
+import Footer from '../footer/Footer'
+import Header from '../header/Header'
 import './List.css'
-const List = () => {
 
-    const [ songList, setSongList] = useState(songs)
+
+const List = (props) => {
+
+    const {listTitle,listDate,editable,songList,setSongList,db,songsRef} =props
+    
+    
+   
     const handleDragStart = (e,index) => {
         // e.preventDefault()
         e.dataTransfer.setData("index",index)
@@ -51,18 +57,16 @@ const List = () => {
     return (
         <main className={"main-view"}>
             <section>
+            <Header name={listTitle} date={listDate}/>
                 {   
-                    songList.map((song,index)=> 
-
+                    songList?.length > 0 && songList.map((song,index)=> 
                         (
-                            <ListElement played={alreadyPlayed} key={index} i={index} lyrics={song.lyrics} dragStart={handleDragStart} dragOver={handleDragOver} dragDrop={handleDrop} dropOver={handleDropOver} tag={song.id} id={song.id} name={song.name} band={song.band} duration={song.duration} tags={song.tags} />
+                            <ListElement editable={editable} played={alreadyPlayed} key={index} i={index} lyrics={song.lyrics} dragStart={handleDragStart} dragOver={handleDragOver} dragDrop={handleDrop} dropOver={handleDropOver} tag={song.id} id={song.id} name={song.name} band={song.band} duration={song.duration} tags={song.tags} />
                         )
- 
-
                     )
                 }
             </section>
-
+            <Footer />
         </main>
     )
 }

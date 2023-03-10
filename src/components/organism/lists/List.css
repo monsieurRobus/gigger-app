@@ -1,3 +1,14 @@
 main.main-view {
-    margin-top:10vh;
+    margin-top:6vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items:center;
+
+}
+
+main section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
