@@ -12,6 +12,30 @@ const handleShowLyrics = (lyrics) => {
 
 }
 
+const songBg = (band) => {
+
+    let classes=''
+    switch(band.toLowerCase())
+        {
+            case 'the beatles':
+                classes+='gold'
+                break;
+            case 'oasis':
+                classes+='blue'
+                break;
+            case 'nebula tango':
+            classes+='red'
+            break;
+            case 'corruption!':
+            classes+='red'
+            break;
+            
+        }
+        classes+=' song'
+        return classes
+
+}
+
 const handlePlayedSong = (id) => {
 
     const played = document.querySelector(`#song-${id}`)
@@ -37,7 +61,7 @@ const ListElement = (props) => {
     let cleanLyrics = DOMPurify.sanitize(lyrics)
 
     return (
-        <div draggable="true" onDragStart={(e)=>dragStart(e,i)} onDragOver={(e)=>dragOver(e,i)} onDrop={(e)=>dragDrop(e,i)} /*onDropOver={(e)=>dropOver(e,i)}*/ id={`song-${id}`} className={band.toLowerCase()=='the beatles' ? 'song gold': 'song'}>
+        <div draggable="true" onDragStart={(e)=>dragStart(e,i)} onDragOver={(e)=>dragOver(e,i)} onDrop={(e)=>dragDrop(e,i)} /*onDropOver={(e)=>dropOver(e,i)}*/ id={`song-${id}`} className={songBg(band)}>
             <header>
                 <div className={'names'}>
                     <h1>{name}</h1>

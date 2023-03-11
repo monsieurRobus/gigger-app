@@ -86,6 +86,13 @@
     background: rgba(242, 217, 119, 0.322);
 }
 
+.blue {
+    background: rgba(21, 129, 206, 0.479);
+}
+
+.red {
+    background: rgba(224, 28, 83, 0.507);
+}
 .lyrics span{
     font-size: 0.9rem;
     color:#f5f5f5;
