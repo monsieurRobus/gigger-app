@@ -37,7 +37,7 @@ const ListElement = (props) => {
     let cleanLyrics = DOMPurify.sanitize(lyrics)
 
     return (
-        <div draggable="true" onDragStart={(e)=>dragStart(e,i)} onDragOver={(e)=>dragOver(e,i)} onDrop={(e)=>dragDrop(e,i)} /*onDropOver={(e)=>dropOver(e,i)}*/ id={`song-${id}`} className={band.toLowerCase=='the beatles' ? 'song gold': 'song'}>
+        <div draggable="true" onDragStart={(e)=>dragStart(e,i)} onDragOver={(e)=>dragOver(e,i)} onDrop={(e)=>dragDrop(e,i)} /*onDropOver={(e)=>dropOver(e,i)}*/ id={`song-${id}`} className={band.toLowerCase()=='the beatles' ? 'song gold': 'song'}>
             <header>
                 <div className={'names'}>
                     <h1>{name}</h1>
