@@ -19,7 +19,7 @@ const Home = (props) => {
   
     const [ songList, setSongList] = useState([])
     const db = getDatabase(app);
-    const songsRef = ref(db, 'songs/' )
+    const songsRef = ref(db, '/mirichaquet/' )
 
     let songsRefList = []
 
@@ -28,14 +28,14 @@ const Home = (props) => {
         onValue(songsRef, (snapshot) => {
             const songs = snapshot.val();
             setSongList(songs || []);
-            console.log("probando")
+            
         });
     }, []);
 
 
   return (
     <main>
-        <List listTitle={'Todas las canciones'} listDate={'-'} editable={false} songList={songList} setSongList={setSongList} db={db} songsRef={songsRef}/>        
+        <List app={app} listTitle={'Todas las canciones'} listDate={'-'} editable={false} songList={songList} setSongList={setSongList} db={db} songsRef={songsRef}/>        
     </main>
   )
 }

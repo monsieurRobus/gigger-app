@@ -53,7 +53,7 @@ const ListElement = (props) => {
                     </div>
                 </div>
             </header>
-            <main id={`lyrics-${id}`} className={'lyrics'} dangerouslySetInnerHTML={{__html:`${cleanLyrics}`}}>
+              <main id={`lyrics-${id}`} className={'lyrics'} dangerouslySetInnerHTML={{__html:`${cleanLyrics}`}}>            
             </main>
             
         </div>

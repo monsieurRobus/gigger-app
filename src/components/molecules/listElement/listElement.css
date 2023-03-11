@@ -85,6 +85,8 @@
 
 .lyrics span{
     font-size: 0.9rem;
+    color:#f5f5f5;
+    text-shadow: 1px 1px 1px black;
     font-size: rem;
     display: block;
 }

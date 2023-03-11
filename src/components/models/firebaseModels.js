@@ -4,7 +4,7 @@ import { songs } from "./songs";
 import {app} from '../../utils/firebase'
 
 const db = getDatabase(app);
-const songsRef = ref(db, 'songs/' )
+const songsRef = ref(db, 'mirichaquet/' )
 
 export let songsRefList = []
 onValue(songsRef, (snapshot) => {

@@ -2,12 +2,13 @@ import React, {useState,useEffect} from 'react'
 import ListElement from '../../molecules/listElement/ListElement'
 import Footer from '../footer/Footer'
 import Header from '../header/Header'
+import { getDatabase, ref, set } from 'firebase/database'
 import './List.css'
 
 
 const List = (props) => {
 
-    const {listTitle,listDate,editable,songList,setSongList,db,songsRef} =props
+    const {app,listTitle,listDate,editable,songList,setSongList,db,songsRef} =props
     
     
    
@@ -28,9 +29,15 @@ const List = (props) => {
             newSongList.splice(index,0,songDragged)
             setSongList(newSongList)
 
+      
+            const db = getDatabase(app)
+            set(ref(db,'mirichaquet/'),newSongList)
+            
             const padre = e.target.closest(`.song`)
             padre.classList.add('dropped')
             setTimeout(()=>padre.classList.remove('dropped'),500)
+1           
+            
         }
         
 
