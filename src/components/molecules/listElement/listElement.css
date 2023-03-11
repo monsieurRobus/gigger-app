@@ -82,6 +82,9 @@
     margin:0;
 }
 
+.gold {
+    background: rgba(242, 217, 119, 0.322);
+}
 
 .lyrics span{
     font-size: 0.9rem;
