@@ -68,6 +68,7 @@ const List = (props) => {
                 {   
                     songList?.length > 0 && songList.map((song,index)=> 
                         (
+                            
                             <ListElement editable={editable} played={alreadyPlayed} key={index} i={index} lyrics={song.lyrics} dragStart={handleDragStart} dragOver={handleDragOver} dragDrop={handleDrop} dropOver={handleDropOver} tag={song.id} id={song.id} name={song.name} band={song.band} duration={song.duration} tags={song.tags} />
                         )
                     )
