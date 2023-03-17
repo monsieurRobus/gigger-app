@@ -31,7 +31,7 @@ const List = (props) => {
 
       
             const db = getDatabase(app)
-            set(ref(db,'mirichaquet/'),newSongList)
+            set(ref(db,'socuellamos/'),newSongList)
             
             const padre = e.target.closest(`.song`)
             padre.classList.add('dropped')
